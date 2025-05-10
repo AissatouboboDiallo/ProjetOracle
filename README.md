@@ -1,4 +1,5 @@
-Projet de gestion de trois (3) services de l'institution technologiques de Mamou 
+Projet de gestion de trois (3) services de l'institution technologiques de Mamou. 
+Services : 
 1-Departement
 2-Scolarité
 3-Infirmerie
@@ -11,7 +12,7 @@ Mariame Diané
 
 Cher membre de l'equipe pour pouvoir contribuer au projet alors y ajouter vos différents code veuillez taper les commandes suivantes : 
 
-1- git clone '' -> recupérer mon projet si vous ne l'avez pas déjà
+1- git clone https://github.com/AissatouboboDiallo/ProjetOracle.git -> recupérer mon projet si vous ne l'avez pas déjà
 
 2- git add scripts/createTableDepartement.sql   -> ajouter vos modifications apportées au fichier createTableDepartement.sql ;
 
@@ -19,5 +20,7 @@ Cher membre de l'equipe pour pouvoir contribuer au projet alors y ajouter vos di
 
 4- git push origin main 
 
-NOTER : Si jamais vous rencontrez une erreur dans l'exécution de la commande push alors  exécuter d'abord la commande : " git pull origin main -> récuperer les dernières modifications du fichier " avant de recommencer les étapes 2,3 et 4 .
+NOTER : Si jamais vous rencontrez une erreur de :
+" error: failed to push some refs to ...
+hint: Updates were rejected because the remote contains work that you do not have locally."  dans l'exécution de la commande push alors  exécuter d'abord la commande : " git pull origin main -> récuperer les dernières modifications du fichier " avant de recommencer les étapes 2,3 et 4 .
 
