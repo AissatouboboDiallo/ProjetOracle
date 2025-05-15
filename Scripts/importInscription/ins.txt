@@ -1,0 +1,2 @@
+@echo off
+sqlldr us_Sco/usS123@orclpdb control=inscription.ctl log=inscription.log bad=inscription.bad

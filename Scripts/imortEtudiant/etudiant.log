@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Mar. Mai 13 11:46:07 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Fichier de contrôle :   etudiant.ctl
+Fichier de données :      etudiant.csv
+  Fichier des enregistrements refusés :     etudiant.bad
+  Fichier de rebut :  aucune spécification
+
+ (Allouer tous les rebuts)
+
+Nombre à charger : ALL
+Nombre à ignorer : 0
+Erreurs autorisés : 50
+Tableau de variables :     250 lignes, maximum de 1048576 octets
+Continuation :    aucune spécification
+Chemin utilisé:      Classique
+
+Table US_DEP.ETUDIANT, chargé à partir de chaque enregistrement physique.
+Option d'insertion en vigueur pour cette table : APPEND
+option TRAILING NULLCOLS effective
+
+   Nom de colonne                  Position   Long  Type de données encadr.
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID_ETUDIANT                         FIRST     *   ,  O(") CHARACTER            
+MATRICULE                            NEXT     *   ,  O(") CHARACTER            
+NOM                                  NEXT     *   ,  O(") CHARACTER            
+PRENOM                               NEXT     *   ,  O(") CHARACTER            
+DATE_NAIS                            NEXT     *   ,  O(") DATE YYYY-MM-DD      
+ID_DEPT                              NEXT     *   ,  O(") CHARACTER            
+ID_PROMO                             NEXT     *   ,  O(") CHARACTER            
+
+
+Table US_DEP.ETUDIANT :
+  Chargement de 2 Lignes effectué.
+  0 Lignes : chargement impossible dû à des erreurs de données.
+  0 Lignes : chargement impossible car échec de toutes les clauses WHEN.
+  0 Lignes : chargement impossible car tous les champs étaient non renseignés.
+
+
+Espace affecté au tableau de variables :                 451500 octets(250 lignes)
+Octets de tampon de lecture : 1048576
+
+Nombre total d'enregistrements logiques ignorés :          0
+Nombre total d'enregistrements logiques lus :             2
+Nombre total d'enregistrements logiques rejetés :         0
+Nombre total d'enregistrements logiques mis au rebut :        0
+
+Le début de l'exécution a été effectué sur Mar. Mai   13 11:46:07 2025
+La fin de l'exécution a été effectuée sur Mar. Mai   13 11:46:08 2025
+
+Temps écoulé (ELAPSED) :     00:00:00.89
+Temps processeur (CPU) :    00:00:00.15
